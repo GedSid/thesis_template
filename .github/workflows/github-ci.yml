@@ -5,7 +5,8 @@ on: [push]
 jobs:
 
   build_latex:
-    runs-on: blang/latex:ubuntu
+    # runs-on: blang/latex:ubuntu
+    runs-on: blang/latex:ctanfull
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v3
