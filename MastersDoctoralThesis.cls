@@ -395,7 +395,7 @@ KOMA-script documentation for details.}]{fancyhdr}
 	}
 	
 	\vspace{1cm}
-	Jurados:\\	
+	Jurados:\\
 	\jurunoname\\
 	\jurdosname\\
 	\jurtresname
