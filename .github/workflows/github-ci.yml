@@ -15,7 +15,7 @@ jobs:
           chmod +x latexdockercmd.sh
       - name: Compile using pdflatex
         run: |
-          ./latexdockercmd.sh pdflatex TI_Ulloa_Joaquin.tex
+          ./latexdockercmd.sh pdflatex main.tex
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
