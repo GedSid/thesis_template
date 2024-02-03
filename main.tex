@@ -5,9 +5,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 
 \documentclass[
 11pt, % The default document font size, options: 10pt, 11pt, 12pt
@@ -38,14 +36,14 @@ headsepline, % Uncomment to get a line under the header
 \director{Mg. Ing. Diego Marcelo Martin (FIUBA)} % El nombre del director, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \dirname
 %\codirector{Nombre del codirector (pertenencia)} % El nombre del codirector si lo hubiera, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \codirname.  Para activar este campo se debe descomentar la opción "codirector" en el comando \documentclass, línea 23.
 
-\juradoUNO{Dr. Ing. Sarasa (UTN)} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur1name
-\juradoDOS{Mg. Ing. Piluso (FIUBA)} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur2name
-\juradoTRES{Esp. Ing. Peperoni (FIUBA)} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur3name
+\juradoUNO{Dr. Ing. XXXXXX (UTN)} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur1name
+\juradoDOS{Mg. Ing. XXXXXX (FIUBA)} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur2name
+\juradoTRES{Esp. Ing. XXXXXX (FIUBA)} % Nombre y pertenencia del un jurado se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \jur3name
 
 \ciudad{Ciudad Autónoma de Buenos Aires}
 
 \fechaINICIO{octubre de 2020}
-\fechaFINAL{febrero de 2024}
+\fechaFINAL{junio de 2024}
 
 \keywords{Sistemas Embebidos, FPGA, Video Digital, FIUBA} % Keywords for your thesis, print it elsewhere with \keywordnames
 
@@ -55,24 +53,19 @@ headsepline, % Uncomment to get a line under the header
 
 \pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
 
-
-%----------------------------------------------------------------------------------------
 %	RESUMEN - ABSTRACT 
-%----------------------------------------------------------------------------------------
 
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-%
+
 %The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
 \centering
 
-separadas
+TBD
 
 \end{abstract}
 
-%----------------------------------------------------------------------------------------
 %	CONTENIDO DE LA MEMORIA  - AGRADECIMIENTOS
-%----------------------------------------------------------------------------------------
 
 \begin{acknowledgements}
 %\addchaptertocentry{\acknowledgementname} % Descomentando esta línea se puede agregar los agradecimientos al índice
@@ -82,31 +75,19 @@ Quisiera agradecer al tutor del trabajo, mis compañeros de la carrera y familia
 
 \end{acknowledgements}
 
-%----------------------------------------------------------------------------------------
-%	LISTA DE CONTENIDOS/FIGURAS/TABLAS
-%----------------------------------------------------------------------------------------
-
 \tableofcontents % Prints the main table of contents
 
 \listoffigures % Prints the list of figures
 
 \listoftables % Prints the list of tables
 
-%----------------------------------------------------------------------------------------
-%	CONTENIDO DE LA MEMORIA  - DEDICATORIA
-%----------------------------------------------------------------------------------------
-
 %\dedicatory{\textbf{Dedicado a... [OPCIONAL]}}  % escribir acá si se desea una dedicatoria
 
-%----------------------------------------------------------------------------------------
-%	CONTENIDO DE LA MEMORIA  - CAPÍTULOS
-%----------------------------------------------------------------------------------------
+%   CONTENIDO DE LA MEMORIA  - CAPÍTULOS
 
 \mainmatter % Begin numeric (1,2,3...) page numbering
 
 \pagestyle{thesis} % Return the page headers back to the "thesis" style
-
-% Incluir los capítulos como archivos separados desde la carpeta Chapters
 
 \include{Chapters/Chapter1}
 \include{Chapters/Chapter2} 
@@ -114,9 +95,7 @@ Quisiera agradecer al tutor del trabajo, mis compañeros de la carrera y familia
 \include{Chapters/Chapter4} 
 \include{Chapters/Chapter5} 
 
-%----------------------------------------------------------------------------------------
-%	CONTENIDO DE LA MEMORIA  - APÉNDICES
-%----------------------------------------------------------------------------------------
+%   CONTENIDO DE LA MEMORIA  - APÉNDICES
 
 % \appendix % indicativo para indicarle a LaTeX los siguientes "capítulos" son apéndices
 
@@ -126,15 +105,10 @@ Quisiera agradecer al tutor del trabajo, mis compañeros de la carrera y familia
 % \include{Appendices/AppendixA}
 % \include{Appendices/AppendixB}
 
-%----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
 
 \Urlmuskip=0mu plus 1mu\relax
 \raggedright
 \printbibliography[heading=bibintoc]
-
-
-%----------------------------------------------------------------------------------------
 
 \end{document}  
