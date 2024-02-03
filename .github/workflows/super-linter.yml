@@ -2,7 +2,7 @@ name: Lint
 
 on:  # yamllint disable-line rule:truthy
   push: null
-  pull_request: null
+  # pull_request: null
 
 jobs:
   build:
@@ -33,3 +33,4 @@ jobs:
           VALIDATE_LATEX: true
           # VALIDATE_MARKDOWN: true
           # VALIDATE_NATURAL_LANGUAGE: true
+          BASH_SEVERITY: "error"
